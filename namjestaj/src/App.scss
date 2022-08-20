@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('./soba1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.stolica{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 65%;
+    left: 22%;
+    transform: translate(-65%, -22%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.crta1{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.crta1ROT{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.crta2ROT{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.crta2{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.tekst{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-left: 370px;
+    margin-top: 100px;
+    font-size: 1rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    animation: rad 0.3s ease alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.tv{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.crta3{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.crta4{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.crta3ROT{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.crta4ROT{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.tekst2{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-left: 370px;
+    margin-top: 50px;
+    font-size: 1rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    animation: rad2 0.3s ease alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.sto{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    transform: translate(-70%, -52%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.crta5{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.crta6{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+.crta5ROT{
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.crta6ROT{
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+.tekst3{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-left: 370px;
+    margin-top: 100px;
+    font-size: 1rem;
+    padding: 20px 20px;
+    border-radius: 10px;
+    animation: rad3 0.3s ease alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+@keyframes rad {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rad2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rad3 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
